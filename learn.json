@@ -1,0 +1,19 @@
+{
+    "language": "bash",
+    "title": {
+      "us": "Configuring a Secure Server with SSL/TLS Using OpenSSL",
+      "es": "Configurar un Servidor Seguro con SSL/TLS Utilizando OpenSSL"
+    },
+    "slug": "configuring-secure-server-ssl-tls-openssl",
+    "description": {
+      "us": "Learn how to configure a secure server using OpenSSL to provide secure communications via SSL/TLS.",
+      "es": "Aprende a configurar un servidor seguro utilizando OpenSSL para proporcionar comunicaciones seguras mediante SSL/TLS."
+    },
+    "preview": "https://raw.githubusercontent.com/breatheco-de/set-up-an-SSL-in-openSSL-with-a-secure-server/main/.learn/assets/preview.png",
+    "repository": "https://github.com/breatheco-de/set-up-an-SSL-in-openSSL-with-a-secure-server",
+    "duration": 2,
+    "difficulty": "intermediate",
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+    "technologies": ["cybersecurity", "network"] 
+  }
+  

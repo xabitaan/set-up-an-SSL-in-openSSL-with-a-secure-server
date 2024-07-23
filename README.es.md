@@ -128,3 +128,24 @@ Este ejercicio tiene como objetivo enseñar a los estudiantes a configurar un se
 
 
 > 💡 NOTA: Para los efectos de este ejercicio educativo, si bien el uso de localhost con HTTPS (https://localhost/) es suficiente para demostrar la configuración básica de SSL/TLS utilizando OpenSSL, incluir la configuración de un dominio personalizado como mi-dominio.com proporciona un aprendizaje más completo y práctico. Este paso adicional permite entender cómo funciona la resolución de DNS en un entorno real. Al generar el certificado SSL/TLS, es crucial que el nombre de dominio (Common Name) coincida con el dominio utilizado para acceder al servidor, evitando así errores y advertencias de seguridad en los navegadores. Esto refuerza la comprensión de conceptos esenciales y mejora las habilidades prácticas necesarias para manejar configuraciones de SSL/TLS en un entorno profesional.
+
+## 🚛 ¿Cómo entregar este proyecto?
+
+Hemos desarrollado un script para ayudarte a medir tu éxito durante este proyecto.
+
+- [ ] En la carpeta `./assets` encontraras el script [check_ssl.sh](https://github.com/breatheco-de/set-up-an-SSL-in-openSSL-with-a-secure-server/blob/main/assets/check_ssl.sh) que deberás copiar y pegar en el escritorio de tu máquina virtual de Debian.
+
+- [ ] Una vez pegado el script [check_ssl.sh](https://github.com/breatheco-de/set-up-an-SSL-in-openSSL-with-a-secure-server/blob/main/assets/check_ssl.sh) en tu maquina Debian, abre la terminal y navega al directorio donde se encuentra el script, en nuestro caso `./Escritorio` y haz que el script sea ejecutable (si aún no lo es). Esto se puede hacer usando el comando `chmod`:
+
+```sh
+chmod +x check_ssl.sh
+```
+
+- [ ] Ejecuta el script especificando su nombre. También pueden proporcionar cualquier argumento necesario. Asumiendo que no se necesitan argumentos adicionales para este ejemplo, deben ejecutar:
+
+```sh
+./check-rules.sh
+```
+
+- [ ] **Carga tus resultados.** La ejecucion del script te creara un archivo `report.json` que deberas copiar y pegarlo en la raíz de este proyecto. 
+

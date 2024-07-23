@@ -125,3 +125,23 @@ This exercise aims to teach students how to set up a secure server using OpenSSL
 
 
 > 💡 NOTE: For the purpose of this educational exercise, while using localhost with HTTPS (https://localhost/) suffices to demonstrate basic SSL/TLS configuration using OpenSSL, including the setup of a custom domain like mi-dominio.com provides a more comprehensive and practical learning experience. This additional step allows understanding of how DNS resolution works in a real environment. When generating the SSL/TLS certificate, it is crucial that the Common Name matches the domain used to access the server, thus avoiding security warnings and errors in web browsers. This reinforces understanding of essential concepts and enhances practical skills necessary for handling SSL/TLS configurations in a professional environment.
+
+## 🚛 How to deliver this project?
+
+We have developed a script to help you measure your success during this project.
+
+- [ ] In the ./assets folder, you will find the script check_ssl.sh which you should copy and paste onto the desktop of your Debian virtual machine.
+
+- [ ] Once you have pasted the script check_ssl.sh onto your Debian machine, open the terminal and navigate to the directory where the script is located, in our case ./Desktop, and make the script executable (if it is not already). This can be done using the chmod command:
+
+```sh
+chmod +x check_ssl.sh
+```
+
+- [ ] Run the script by specifying its name. You may also need to provide any necessary arguments. Assuming no additional arguments are needed for this example, you should run:
+
+```sh
+./check-rules.sh
+```
+
+- [ ] Upload your results. Running the script will create a report.json file, which you should copy and paste into the root of this project.

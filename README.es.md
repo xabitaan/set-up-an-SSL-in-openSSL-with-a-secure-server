@@ -21,8 +21,6 @@
 
 ## 🌱 ¿Cómo empezar este proyecto?
 
-¡No clones este repositorio! solo sigue las intrucciones.
-
 Este ejercicio tiene como objetivo enseñar a los estudiantes a configurar un servidor seguro utilizando OpenSSL para proporcionar comunicaciones seguras mediante SSL/TLS.
 
 ### Requisitos
@@ -31,6 +29,16 @@ Este ejercicio tiene como objetivo enseñar a los estudiantes a configurar un se
 
 
 ## 📝 Instrucciones
+
+* Abre esta URL y forkea el siguiente repositorio https://github.com/breatheco-de/set-up-an-SSL-in-openSSL-with-a-secure-server
+
+ ![fork button](https://github.com/4GeeksAcademy/4GeeksAcademy/blob/master/site/src/static/fork_button.png?raw=true)
+
+Un nuevo repositorio se creará en tu cuenta.
+
+* Clona este nuevo repositorio forkeado utilizando Git para descargartelo a tu maquina local.
+* Una vez que hayas clonado, sigue los pasos de mas abajo hasta el final.
+
 
 ### Paso 1: Generar una clave privada y una solicitud de Firma de Certificado (CSR):
 - [ ] Abre una terminal y ejecuta el siguiente comando para generar una clave privada RSA de 2048 bits:

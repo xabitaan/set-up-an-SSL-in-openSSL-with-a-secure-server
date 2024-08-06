@@ -14,7 +14,7 @@
     "duration": 2,
     "difficulty": "intermediate",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "technologies": ["cybersecurity", "network"],
+    "technologies": ["cybersecurity", "network", "ciberseguridad", "redes"],
     "delivery":{
 		"instructions": {
 			"en": "Please upload your report.json file to your GitHub repository and provide the link to your repository here",

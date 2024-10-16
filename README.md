@@ -1,5 +1,5 @@
-# Setting Up a Secure Server with SSL/TLS Using OpenSSL
 <!-- hide -->
+# Setting Up a Secure Server with SSL/TLS Using OpenSSL
 
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/set-up-an-SSL-in-openSSL-with-a-secure-server/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 

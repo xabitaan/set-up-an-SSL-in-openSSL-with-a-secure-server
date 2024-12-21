@@ -1,0 +1,17 @@
+{
+    "*filter": "present",
+    ":INPUT DROP [0:0]": "present",
+    ":FORWARD ACCEPT [0:0]": "present",
+    ":OUTPUT ACCEPT [121:68559]": "present",
+    "-A INPUT -p tcp -m tcp --dport 22 -j ACCEPT": "present",
+    "-A INPUT -p tcp -m tcp --dport 80 -j ACCEPT": "present",
+    "-A INPUT -p tcp -m tcp --dport 443 -j ACCEPT": "present",
+    "-A INPUT -j DROP": "present",
+    "-A INPUT -s 10.0.2.20/32 -p tcp -m tcp --dport 22 -j ACCEPT": "present",
+    "-A INPUT -p tcp -m tcp --dport 80 -m conntrack --ctstate NEW -m limit --limit 1/sec -j ACCEPT": "present",
+    "-A INPUT -p tcp -m tcp --tcp-flags FIN,SYN,RST,ACK SYN -m limit --limit 1/sec --limit-burst 10 -j ACCEPT": "present",
+    "-A INPUT -m conntrack --ctstate INVALID -j DROP": "present",
+    "-A INPUT -p tcp -m tcp --tcp-flags FIN,SYN,RST,ACK SYN -j LOG --log-prefix "Port Scan: "": "present",
+    "COMMIT": "present"
+}
+}

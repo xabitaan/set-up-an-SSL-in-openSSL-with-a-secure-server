@@ -1,0 +1,7 @@
+[
+  {"step": "check_files", "result": "failure", "message": "Clave privada no encontrada en /etc/ssl/private/myserver.key"}
+,
+  {"step": "check_certificate", "result": "success", "message": "El certificado es válido."}
+,
+  {"step": "check_apache_config", "result": "success", "message": "La configuración de Apache SSL es correcta."}
+]
